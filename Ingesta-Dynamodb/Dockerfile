@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY ingesta_dynamodb.py .
 
 # Comando para ejecutar el script de ingesta cuando se inicie el contenedor
-CMD ["python", "ingesta_dynamodb.py"]
+CMD ["python", "Ingesta-Dynamodb.py"]

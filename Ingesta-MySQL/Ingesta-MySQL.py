@@ -39,7 +39,7 @@ def export_table_to_s3(table_name, bucket_name):
     print(f"Archivo CSV para la tabla {table_name} subido exitosamente a S3")
 
 # Nombre del bucket de S3
-bucket_name = 'bucket-ingesta-parcial'
+bucket_name = 'mysql-ingesta-testbench'
 
 # Exportar las tablas 'rockies' y 'accesorios' a S3
 export_table_to_s3('rockies', bucket_name)

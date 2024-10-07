@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY ingesta_datos.py .
 
 # Comando para ejecutar el script de ingesta cuando se inicie el contenedor
-CMD ["python", "ingesta_datos.py"]
+CMD ["python", "Ingesta-MySQL.py"]
